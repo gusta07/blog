@@ -1,0 +1,30 @@
+<div class="wrapper wrapper_padding clearfix">
+		<div class="col-1 about homepage_content">
+			<h2>About</h2>
+			<hr>
+			<p>Irony actually shoreditch vegan tumblr roof party. Locavore viral art party wayfarers.</p>
+			<p>Gentrify four dollar toast single-origin coffee jean shorts cred, skateboard trust fund waistcoat ethical tumblr shabby chic marfa PBR&amp;B beard. Synth <a href="#">quinoa</a> freegan austin. </p>
+			<p>Gluten-free YOLO small batch deep v +1. Godard plaid vegan, letterpress cornhole aesthetic humblebrag quinoa butcher. Banh mi pork belly man bun next level VHS bitters 
+			</p>
+		</div>
+		<div class="col-2 homepage_content">
+			<h2>Stuff I've written</h2>
+			<hr>
+			
+			<% @posts.each do |post| %>
+				<h3><a href="#"><%= link_to post.title, post %></a></h3>
+				<p class="date"><%= post.created_at.strftime("%A, %b %d") %></p>
+			<% end %>
+			
+		</div>
+		<div class="col-3 homepage_content">
+			<h2>Stuff I've built</h2>
+			<hr>
+			<h3><a href="#">Facebook</a></h3>
+			<p class="date">Friday April 10th</p>
+			<h3><a href="#">Google</a></h3>
+			<p class="date">Friday April 10th</p>
+			<h3><a href="#">Youtube</a></h3>
+			<p class="date">Friday April 10th</p>
+		</div>
+</div>
