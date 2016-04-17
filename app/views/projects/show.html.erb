@@ -10,9 +10,16 @@
 				<a href="<%= @project.link %>" class="project_button" target="_blank">Visit <%= @project.title %></a>
 			</div>
 		</div>
-		
-		<%= link_to "Edit", edit_project_path(@project) %>
-		<%= link_to "Delete", project_path(@project), method: :delete, data: { confirm:  "Are you sure you want to delete this project?"} %>			
+
+		<% if user_signed_in? %>
+			<br>
+			<br>
+			<div id="admin_links">
+				<%= link_to "Edit", edit_post_path(@project) %>
+				<%= link_to "Delete", post_path(@project), method: :delete, data: { confirm:  "Are you sure you want to delete this article?"} %>
+			</div>
+		<% end %>
+				
 		<hr> 
 
 </div>
