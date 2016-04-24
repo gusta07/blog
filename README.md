@@ -21,5 +21,8 @@ If you have issue like this "An error occurred while installing pg (0.18.4), and
 - brew install postgresql
 - gem install pg
 
+##Login
+
+`http://localhost:3000/users/sign_in`
 
    [SO]: <http://stackoverflow.com/questions/30162572/error-message-make-sure-that-gem-install-pg-v-0-18-1-succeeds-before-bundl>
