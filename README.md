@@ -25,7 +25,7 @@ If you have issue like this "An error occurred while installing pg (0.18.4), and
 
 To signup you'll first need to add `:registerable` in user.rb file
 
-Then you can create your account at `http://localhost:3000/users/sign_up` and login at `http://localhost:3000/users/sign_in`
+Then you can create your account at `http://localhost:3000/users/sign_up` and login at `http://localhost:3000/users/sign_in` (you might need to restart the rails server before)
 
 If you go on prod, don't forget to remove `:registerable` from user.rb otherwise anybody will be able to create an account on your blog :sweat_smile:
 
