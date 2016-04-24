@@ -14,9 +14,12 @@ You might need to install the dependencies first:
 
 `bundle install`
 
-If you have issue like this "An error occurred while installing pg (0.18.4), and Bundler cannot continue." Do the following steps taken from [SO](http://stackoverflow.com/questions/30162572/error-message-make-sure-that-gem-install-pg-v-0-18-1-succeeds-before-bundl):
+If you have issue like this "An error occurred while installing pg (0.18.4), and Bundler cannot continue." Do the following steps taken from [SO]:
 
 - Install Xcode command line tools (Apple Developer site). If you have it already installed, update it using brew update.
 - brew uninstall postgresql
 - brew install postgresql
 - gem install pg
+
+
+   [SO]: <http://stackoverflow.com/questions/30162572/error-message-make-sure-that-gem-install-pg-v-0-18-1-succeeds-before-bundl>
