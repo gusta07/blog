@@ -83,7 +83,6 @@ Rails.application.configure do
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.perform_deliveries = true
   config.action_mailer.default_url_options = { host : 'https://gustanas.herokuapp.com'}
-  
   ActionMailer::Base.smtp_settings = {
           :address        => 'smtp.sendgrid.net',
           :port           => '587',
