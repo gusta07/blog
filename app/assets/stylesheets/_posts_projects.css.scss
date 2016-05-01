@@ -41,9 +41,11 @@
 		margin: 3em auto;
 	}
 
-	img.resize{
-    	width:900px; /* you can use % */
-    	height: auto;
+	img{
+    	height: auto; 
+    	width: auto; 
+    	max-width: 760px; 
+    	
 	}
 }
 
