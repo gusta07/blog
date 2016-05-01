@@ -27,9 +27,10 @@
 				<i class="fa fa-facebook"></i>
 			</a>
 
-			<a onclick="javascript:window.open('https://plus.google.com/share?url=<%= url_for([@post,{only_path: false}])%>','_blank','width=800,height=500,top=200,left=300');void(0);">
+			<a href="https://plus.google.com/share?url=<%= url_for([@post,{only_path: false}])%>" onclick="javascript:window.open(this.href,
+  '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
 				<i class="fa fa-google-plus"></i>
-			</a>
+  			</a>
 
 		</div>
 
