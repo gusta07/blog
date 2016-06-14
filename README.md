@@ -4,6 +4,7 @@ Taken from https://mackenziechild.me
 
 The purpose was to get introduced to rails while building a personal website.
 
+Visit http://www.gustanas.co/ to see the result.
 
 ##Troubleshooting OSX
 To run locally:
