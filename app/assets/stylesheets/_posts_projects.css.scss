@@ -27,11 +27,11 @@
 
 #post_show_content {
 	header{
-		text-align: center; 
+		text-align: center;
 		.date{
 			font-size: .9em;
 			color: $light;
-			margin: 0; 
+			margin: 0;
 		}
 		h1{
 			margin: 0;
@@ -42,11 +42,32 @@
 	}
 
 	img{
-    	height: auto; 
-    	width: auto; 
-    	max-width: 760px; 
-    	
+    	height: auto;
+    	width: auto;
+    	max-width: 760px;
+
 	}
+}
+
+#post_show_content #content {
+	a {
+		color: $highlight;
+		font-weight: 700;
+		text-decoration: none;
+	}
+}
+
+
+#post_show_content #content .project_button {
+	background: $highlight;
+	color: $white;
+	text-decoration: none;
+	padding: 1em 2em;
+
+		&:hover{
+			color: $white;
+		}
+
 }
 
 #share_box{
@@ -110,8 +131,8 @@
 		font-style: normal;
 		color: $dark;
 		&:hover{
-			color: $white ; 
-			background: $highlight; 
+			color: $white ;
+			background: $highlight;
 		}
 	}
 	.current{
@@ -121,8 +142,8 @@
 	.disabled{
 		color: #C0C0C0;
 		&:hover{
-			color: #C0C0C0; 
-			background: $white; 
+			color: #C0C0C0;
+			background: $white;
 		}
 	}
 }
