@@ -31,5 +31,9 @@ Then you can create your account at `http://localhost:3000/users/sign_up` and lo
 If you go on prod, don't forget to remove `:registerable` from user.rb otherwise anybody will be able to create an account on your blog :sweat_smile:
 
 
+Twitter: [@gusta_nas](https://twitter.com/gusta_nas)
+
+Website: [gustanas.co](http://www.gustanas.co/)
+
 
    [SO]: <http://stackoverflow.com/questions/30162572/error-message-make-sure-that-gem-install-pg-v-0-18-1-succeeds-before-bundl>
